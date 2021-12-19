@@ -25,6 +25,7 @@ init:
 # add several platforms to build matrix:
 platform:
   - Win32
+  - Win64
 
 # Scripts that run after cloning repository
 install:
