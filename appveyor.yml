@@ -28,18 +28,18 @@ platform:
 
 # Scripts that run after cloning repository
 install:
-  - cmd: echo Download lazarus-1.6.4-fpc-3.0.2-win32
-  - cmd: curl -fsSL -o lazarus-1.6.4-fpc-3.0.2-win32.exe "https://nchc.dl.sourceforge.net/project/lazarus/Lazarus Windows 32 bits/Lazarus 2.0.10/lazarus-2.0.10-fpc-3.2.0-win32.exe"
-  - cmd: echo Installing lazarus-1.6.4-fpc-3.0.2-win32
-  - cmd: lazarus-1.6.4-fpc-3.0.2-win32.exe /verysilent
-  - cmd: echo Downloading lazarus-1.6.4-fpc-3.0.2-cross-x86_64-win64-win32
-  - cmd: curl -fsSL -o lazarus-1.6.4-fpc-3.0.2-cross-x86_64-win64-win32.exe "https://nchc.dl.sourceforge.net/project/lazarus/Lazarus Windows 32 bits/Lazarus 2.0.10/lazarus-2.0.10-fpc-3.2.0-cross-x86_64-win64-win32.exe"
-  - cmd: echo Installing lazarus-1.6.4-fpc-3.0.2-cross-x86_64-win64-win32
-  - cmd: lazarus-1.6.4-fpc-3.0.2-cross-x86_64-win64-win32.exe /verysilent
-  - cmd: echo Downloading lazarus-1.6.4-fpc-3.0.2-cross-arm-wince-win32
-  - cmd: curl -fsSL -o lazarus-1.6.4-fpc-3.0.2-cross-arm-wince-win32.exe "https://jaist.dl.sourceforge.net/project/lazarus/Lazarus Windows 32 bits/Lazarus 2.0.12/lazarus-2.0.12-fpc-3.2.0-cross-arm-wince-win32.exe"
-  - cmd: echo Installing lazarus-1.6.4-fpc-3.0.2-cross-arm-wince-win32.exe
-  - cmd: lazarus-1.6.4-fpc-3.0.2-cross-arm-wince-win32.exe /verysilent
+  - cmd: echo Download lazarus-2.0.12-fpc-3.2.0-win32
+  - cmd: curl -fsSL -o lazarus-2.0.12-fpc-3.2.0-win32.exe "https://nchc.dl.sourceforge.net/project/lazarus/Lazarus Windows 32 bits/Lazarus 2.0.10/lazarus-2.0.10-fpc-3.2.0-win32.exe"
+  - cmd: echo Installing lazarus-2.0.12-fpc-3.2.0-win32
+  - cmd: lazarus-2.0.12-fpc-3.2.0-win32 /verysilent
+  - cmd: echo Downloading lazarus-2.0.12-fpc-3.2.0-cross-x86_64-win64-win32
+  - cmd: curl -fsSL -o lazarus-2.0.12-fpc-3.2.0-cross-x86_64-win64-win32.exe "https://nchc.dl.sourceforge.net/project/lazarus/Lazarus Windows 32 bits/Lazarus 2.0.10/lazarus-2.0.10-fpc-3.2.0-cross-x86_64-win64-win32.exe"
+  - cmd: echo Installing lazarus-2.0.12-fpc-3.2.0-cross-x86_64-win64-win32
+  - cmd: lazarus-2.0.12-fpc-3.2.0-cross-x86_64-win64-win32.exe /verysilent
+  - cmd: echo Downloading lazarus-2.0.12-fpc-3.2.0-cross-arm-wince-win32
+  - cmd: curl -fsSL -o lazarus-2.0.12-fpc-3.2.0-cross-arm-wince-win32.exe "https://jaist.dl.sourceforge.net/project/lazarus/Lazarus Windows 32 bits/Lazarus 2.0.12/lazarus-2.0.12-fpc-3.2.0-cross-arm-wince-win32.exe"
+  - cmd: echo Installing lazarus-2.0.12-fpc-3.2.0-cross-arm-wince-win32.exe
+  - cmd: lazarus-2.0.12-fpc-3.2.0-cross-arm-wince-win32.exe /verysilent
   - cmd: rmdir /S /Q c:\lazarus\docs
   - cmd: rmdir /S /Q c:\lazarus\examples
 
